@@ -1,0 +1,3 @@
+Command to sort:
+awk '$3 == "A" { print $1,$4} filename.txt | sort
+This command will filter what is in the third row if it has "A" and print what corresponds to it in $1 and $4 row.
